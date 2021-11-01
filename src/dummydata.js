@@ -49,6 +49,29 @@ export const userData = [
   },
 ];
 
+export const productData = [
+  {
+    name: "Jan",
+    sales: 7000,
+  },
+  {
+    name: "Feb",
+    sales: 3000,
+  },
+  {
+    name: "Mar",
+    sales: 3000,
+  },
+  {
+    name: "Apr",
+    sales: 4000,
+  },
+  {
+    name: "May",
+    sales: 1400,
+  },
+];
+
 export const userRows = [
   {
     id: 1,
@@ -148,5 +171,107 @@ export const userRows = [
     email: "jonsnow@gmail.com",
     status: "active",
     transaction: "$120.00",
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Apple Airpods",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+
+  {
+    id: 2,
+    name: "Lenovo Watch",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+
+  {
+    id: 3,
+    name: "Toshiba USB",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+
+  {
+    id: 4,
+    name: "Microsoft Laptop",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+
+  {
+    id: 4,
+    name: "Microsoft Laptop",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+
+  {
+    id: 6,
+    name: "Microsoft Laptop",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+
+  {
+    id: 7,
+    name: "Microsoft Laptop",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+
+  {
+    id: 8,
+    name: "Microsoft Laptop",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+
+  {
+    id: 9,
+    name: "Microsoft Laptop",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+
+  {
+    id: 10,
+    name: "Microsoft Laptop",
+    image:
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
 ];

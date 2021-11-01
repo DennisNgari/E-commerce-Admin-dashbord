@@ -49,7 +49,7 @@ const FeaturedInfo = () => {
     return (
         <FeaturedContainer>
             <FeaturedItem>
-                <FeaturedTitle> REVENUE</FeaturedTitle>
+                <FeaturedTitle> Revenue</FeaturedTitle>
                 <FeaturedMoneyContainer>
                     <FeaturedMoney>$ 2,415</FeaturedMoney>
                     <FeaturedMoneyRate>-11.4 <ArrowDownward style={{ fontSize:"14px", marginLeft:"5px", color:"red"}}/> </FeaturedMoneyRate>
@@ -58,7 +58,7 @@ const FeaturedInfo = () => {
             </FeaturedItem>
 
             <FeaturedItem>
-                <FeaturedTitle> COST</FeaturedTitle>
+                <FeaturedTitle> Sales</FeaturedTitle>
                 <FeaturedMoneyContainer>
                     <FeaturedMoney>$ 4,415</FeaturedMoney>
                     <FeaturedMoneyRate>-1.4 <ArrowDownward style={{ fontSize:"14px",marginLeft:"5px", color:"red"}}/> </FeaturedMoneyRate>
@@ -67,7 +67,7 @@ const FeaturedInfo = () => {
             </FeaturedItem>
 
             <FeaturedItem>
-                <FeaturedTitle> COST</FeaturedTitle>
+                <FeaturedTitle> Cost</FeaturedTitle>
                 <FeaturedMoneyContainer>
                     <FeaturedMoney>$ 2,215</FeaturedMoney>
                     <FeaturedMoneyRate>+2.4 <ArrowUpward style={{ fontSize:"14px", marginLeft:"5px", color:"green"}}/> </FeaturedMoneyRate>

@@ -1,4 +1,5 @@
 import { AssessmentOutlined, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, PermIdentity, ReportOutlined, Storefront, Timeline, TrendingUp, WorkOutline } from "@material-ui/icons"
+import  {NavLink}  from "react-router-dom"
 import styled from "styled-components"
 
 const SidebarContainer = styled.div`
@@ -12,7 +13,10 @@ const SidebarWrapper = styled.div`
 padding: 20px;
 color: #555;
 `
-
+const Link = styled(NavLink)`
+text-decoration: none;
+color: inherit;
+`
 const SidebarMenu = styled.div`
 margin-bottom: 50px;
 `
@@ -46,10 +50,14 @@ const Sidebar = () => {
                 <SidebarMenu>
                     <SidebarTitle>Dashboard</SidebarTitle>
                     <SidebarList >
+
+                    <Link to="/">
                         <SidebarListItem className="active">
                             <LineStyle style={{marginRight:"5px", fontSize:"20px"}}/> 
                             Home
                         </SidebarListItem>
+                    </Link>
+
                         <SidebarListItem >
                             <Timeline style={{marginRight:"5px", fontSize:"20px"}}/> 
                             Analytics
@@ -64,14 +72,19 @@ const Sidebar = () => {
                 <SidebarMenu>
                     <SidebarTitle>QuickMenu</SidebarTitle>
                     <SidebarList >
-                    <SidebarListItem>
+                        <Link to="/users">
+                        <SidebarListItem>
                             <PermIdentity style={{marginRight:"5px", fontSize:"20px"}}/> 
                             Users
                         </SidebarListItem>
-                        <SidebarListItem >
-                            <Storefront style={{marginRight:"5px", fontSize:"20px"}}/> 
-                            Products
-                        </SidebarListItem>
+                        </Link>
+
+                        <Link to ="/products">
+                            <SidebarListItem >
+                                <Storefront style={{marginRight:"5px", fontSize:"20px"}}/> 
+                                Products
+                            </SidebarListItem>
+                        </Link>
                         <SidebarListItem >
                             <TrendingUp style={{marginRight:"5px", fontSize:"20px"}}/> 
                             Sales
